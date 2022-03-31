@@ -16,7 +16,6 @@ export class AppService {
         headers: {},
       })
       .then((d: any) => {
-        console.log(d?.data);
         return d.data;
       })
       .catch((e: any) => {
@@ -32,7 +31,6 @@ export class AppService {
         },
       })
       .then((d: any) => {
-        console.log(d?.data);
         return d.data;
       })
       .catch((e: any) => {
@@ -48,7 +46,6 @@ export class AppService {
         },
       })
       .then((d: any) => {
-        console.log(d?.data);
         return d.data;
       })
       .catch((e: any) => {
